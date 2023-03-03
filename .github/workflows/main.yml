@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Upload to S3
         run: |
-          aws s3 mb s3://BigData_053
+          aws s3 mb s3://bigdata_053
         env:
           AWS_ACCESS_KEY_ID: ASIAYRQKBV22Q4NAQSV6
           AWS_SECRET_ACCESS_KEY: yjQNlWpmFAtkOF1bRzVjSp/WCrML5wdsluDUaFkc
